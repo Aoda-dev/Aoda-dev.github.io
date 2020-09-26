@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.632da47d.chunk.css",
+    "main.js": "./static/js/main.7f71772d.chunk.js",
+    "main.js.map": "./static/js/main.7f71772d.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.94c40845.js",
+    "runtime-main.js.map": "./static/js/runtime-main.94c40845.js.map",
+    "static/js/2.0577489f.chunk.js": "./static/js/2.0577489f.chunk.js",
+    "static/js/2.0577489f.chunk.js.map": "./static/js/2.0577489f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.69f63e80b3d85a42e035e554b3b9bbcd.js": "./precache-manifest.69f63e80b3d85a42e035e554b3b9bbcd.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.632da47d.chunk.css.map": "./static/css/main.632da47d.chunk.css.map",
+    "static/js/2.0577489f.chunk.js.LICENSE.txt": "./static/js/2.0577489f.chunk.js.LICENSE.txt",
+    "static/media/back-circle.png": "./static/media/back-circle.11107ec8.png",
+    "static/media/Прямоугольник 24.png": "./static/media/Прямоугольник 24.7b2f7e1a.png",
+    "static/media/Прямоугольник 25.png": "./static/media/Прямоугольник 25.45b58686.png",
+    "static/media/Прямоугольник 26.png": "./static/media/Прямоугольник 26.d69b9367.png",
+    "static/media/Прямоугольник 27.png": "./static/media/Прямоугольник 27.b83d3ca6.png",
+    "static/media/Прямоугольник 28.png": "./static/media/Прямоугольник 28.23601cf5.png",
+    "static/media/—Pngtree—paris eiffel tower black and_4677023.png": "./static/media/—Pngtree—paris eiffel tower black and_4677023.21a10d04.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94c40845.js",
+    "static/js/2.0577489f.chunk.js",
+    "static/css/main.632da47d.chunk.css",
+    "static/js/main.7f71772d.chunk.js"
+  ]
+}
