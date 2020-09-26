@@ -1,0 +1,59 @@
+.clouds {
+  position: absolute;
+}
+.clouds div {
+  position: absolute;
+}
+.clouds img {
+  position: absolute;
+}
+.cloud-1 {
+  opacity: 0.4;
+  width: 62px;
+  transform: translate(420px, 50px);
+}
+.cloud-2 {
+  opacity: 0.4;
+  width: 32px;
+  transform: translate(500px, 100px);
+}
+.cloud-3 {
+  opacity: 0.4;
+  width: 32px;
+  transform: translate(320px, 100px);
+}
+.cloud-div-1 {
+  background-color: #ffffff;
+  opacity: 0.2;
+  width: 50px;
+  height: 7px;
+  transform: translate(30px, 100px);
+}
+.cloud-div-2 {
+  background-color: #ffffff;
+  opacity: 0.2;
+  width: 70px;
+  height: 7px;
+  transform: translate(50px, 30px);
+}
+.cloud-div-3 {
+  background-color: #ffffff;
+  opacity: 0.2;
+  width: 60px;
+  height: 4px;
+  transform: translate(720px, 54px);
+}
+.cloud-div-4 {
+  background-color: #ffffff;
+  opacity: 0.2;
+  width: 40px;
+  height: 4px;
+  transform: translate(590px, 75px);
+}
+.cloud-div-5 {
+  background-color: #ffffff;
+  opacity: 0.2;
+  width: 40px;
+  height: 4px;
+  transform: translate(765px, 120px);
+}

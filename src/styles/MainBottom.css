@@ -1,0 +1,75 @@
+.main-bottom {
+  display: flex;
+}
+.main-twitter {
+  position: relative;
+  padding: 1rem 0rem;
+  width: 40%;
+  height: 100%;
+}
+.main-weather {
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+.main-weather-icons {
+  text-align: center;
+  padding: 1rem 0.6rem;
+}
+.main-weather-icons h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.p1 {
+  font-weight: 400;
+  margin-top: -1px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.main__twitter {
+  display: flex;
+  align-items: center;
+}
+.main__twitter img {
+  margin-left: 20px;
+}
+.main__twitter h2 {
+  margin-left: 13px;
+  letter-spacing: 1px;
+}
+.main__twitter small {
+  margin-left: 10px;
+  margin-top: 7px;
+  opacity: 0.7;
+}
+.main__twitter__content {
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__twitter__icons {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.main__twitter__icons small {
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+  margin-left: 20px;
+}
+.twit-1 {
+  margin-top: -7px;
+}
+
+/* scroll */
+
+.main-twitter-scroll {
+  position: absolute;
+  width: 2px;
+  height: 160px;
+  background-color: black;
+  opacity: 0.4;
+  right: 9px;
+  top: 50px;
+}
