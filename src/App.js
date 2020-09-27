@@ -6,23 +6,27 @@ import './styles/App.css';
 
 
 function App() {
-  const date = {
-    months: [
-      'January', 'February', 'March', 
-      'April', 'May', 'June', 'July', 
-      'August', 'September', 'October',
-      'November', 'December'
-    ],
-    days: [
-      ['Monday', 'MON'], ['Tuesday', 'TUE'], ['Wednesday', 'WED'], 
-      ['Thursday', 'THU'], ['Friday', 'FRI'], ['Saturday', 'STR'], ['Sunday', 'SUN']]
-  }
+  const [state, setState] = React.useState({
+    _date: new Date(),
+    date: {
+      months: [
+        'January', 'February', 'March', 
+        'April', 'May', 'June', 'July', 
+        'August', 'September', 'October',
+        'November', 'December'
+      ],
+      days: [
+        ['Monday', 'MON'], ['Tuesday', 'TUE'], ['Wednesday', 'WED'], 
+        ['Thursday', 'THU'], ['Friday', 'FRI'], ['Saturday', 'STR'], ['Sunday', 'SUN']]
+    },
+    getDate: () => {
+      const days = state._date.getDate();
+      const dayofWeek = state._date.getDay();
+      const months = state._date.getMonth();
 
-  function getDate() {
-    const _date = new Date();
-
-    return `${date.days[_date.getDay() - 1][0]}, ${_date.getDate()}th ${date.months[_date.getMonth()]}`
-  }
+      return `${state.date.months[months]}, ${days}th ${state.date.days[dayofWeek][0]}`;
+    }
+  });
 
   const openNav = () => {
     document.querySelector('.App-sidebar').classList.add('active');
@@ -49,7 +53,7 @@ function App() {
       <header className="App-header">
         <Sidebar toHome={toHome}/>
         <img src={assets.menu} alt="" onClick={() => { openNav(); }}/>
-        <span>{ getDate() }</span>
+        <span>{ state.getDate() }</span>
       </header>
       <main>
         <img className="circle" src={assets.circle} alt="" />
